@@ -1,0 +1,12 @@
+# install ipython:
+
+pip install ipython
+
+
+# config vscode to use ipython as shell
+# Ctrl+Shift+p --> search for "settings" --> open settings.json
+# and add:
+
+"python.terminal.launchArgs": [
+    "-m", "IPython", "--no-autoindent"
+]
